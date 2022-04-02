@@ -765,9 +765,10 @@ def can_run_gass_ppi(input_protein_structure, interface_template):
     if len(interface_template) <= 0:
         return False
 
-    # Count the number of each residue type in the input_protein_structure
+    filtered_protein_structure = [residue for residue in input_protein_structure if residue.residue_sasa > 0.0]
+    # Count the number of each residue type in the filtered_protein_structure
     number_of_residues_in_structure = { x: 0 for x in amino_acid_list }
-    for residue in input_protein_structure:
+    for residue in filtered_protein_structure:
         number_of_residues_in_structure[residue.residue_name] += 1
 
     # Count the number of each residue type in the interface_template
