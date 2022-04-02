@@ -988,16 +988,16 @@ def dbd_sanity_test(pdb_id_list, templates_dict, ranking_size=100, verbose=False
             for _ in range(iteration_per_protein):
                 # Step 2: GASS-PPI
                 if can_run_gass_ppi(monomer_pdb_structure, interface_template):
-                    if verbose:
-                        print("Currently evaluating:", monomer_pdb_id, ", with template size:", len(interface_template))
+                    # if verbose:
+                    #     print("Currently evaluating:", monomer_pdb_id, ", with template size:", len(interface_template))
 
                     predicted_population_list = gass_ppi(monomer_pdb_structure, interface_template, population_size=population_size, number_of_generations=number_of_generations, crossover_probability=crossover_probability, mutation_probability=mutation_probability, tournament_size=tournament_size, number_of_tournament=number_of_tournament, verbose=False)
 
                     # Step 3: Evaluation
                     individual_ranking, precision, recall, auc_roc, auc_pr, mcc, specificity, npv = evaluate_ppi_population(interface_template, predicted_population_list, monomer_pdb_structure, ranking_size)
                     # TODO: Remove this later, for debugging only
-                    if verbose:
-                        print_interface_info(predicted_population_list[individual_ranking][0])
+                    # if verbose:
+                    #     print_interface_info(predicted_population_list[individual_ranking][0])
 
                     individual_ranking_list.append(individual_ranking)
                     precision_list.append(precision)
@@ -1276,38 +1276,38 @@ Below indicates the performance of the SOTA methods:
 
 # DBD3 Sanity Test for each Complex Category Labels
 print("DBD3: Enzyme-Inhibitor or Enzyme-Substrate (E)")
-e_ranking_list, e_precision_list, e_recall_list, e_auc_roc_list, e_auc_pr_list, e_mcc_list, e_specificity_list, e_npv_list = dbd_sanity_test(dbd3_e_list, dbd3_e_templates_dict, verbose=True, iteration_per_protein=1)
+e_ranking_list, e_precision_list, e_recall_list, e_auc_roc_list, e_auc_pr_list, e_mcc_list, e_specificity_list, e_npv_list = dbd_sanity_test(dbd3_e_list, dbd3_e_templates_dict, verbose=True, iteration_per_protein=30)
 print("\n\n")
 
-# print("DBD3: Antibody-Antigen (A)")
-# a_ranking_list, a_precision_list, a_recall_list, a_auc_roc_list, a_auc_pr_list, a_mcc_list, a_specificity_list, a_npv_list = dbd_sanity_test(dbd3_a_list, dbd3_a_templates_dict, verbose=True, iteration_per_protein=1)
-# print("\n\n")
+print("DBD3: Antibody-Antigen (A)")
+a_ranking_list, a_precision_list, a_recall_list, a_auc_roc_list, a_auc_pr_list, a_mcc_list, a_specificity_list, a_npv_list = dbd_sanity_test(dbd3_a_list, dbd3_a_templates_dict, verbose=True, iteration_per_protein=30)
+print("\n\n")
 
-# print("DBD3: Antigen-Bound Antibody (AB)")
-# ab_ranking_list, ab_precision_list, ab_recall_list, ab_auc_roc_list, ab_auc_pr_list, ab_mcc_list, ab_specificity_list, ab_npv_list = dbd_sanity_test(dbd3_ab_list, dbd3_ab_templates_dict, verbose=True, iteration_per_protein=1)
-# print("\n\n")
+print("DBD3: Antigen-Bound Antibody (AB)")
+ab_ranking_list, ab_precision_list, ab_recall_list, ab_auc_roc_list, ab_auc_pr_list, ab_mcc_list, ab_specificity_list, ab_npv_list = dbd_sanity_test(dbd3_ab_list, dbd3_ab_templates_dict, verbose=True, iteration_per_protein=30)
+print("\n\n")
 
-# print("DBD3: Others (O)")
-# o_ranking_list, o_precision_list, o_recall_list, o_auc_roc_list, o_auc_pr_list, o_mcc_list, o_specificity_list, o_npv_list = dbd_sanity_test(dbd3_o_list, dbd3_o_templates_dict, verbose=True, iteration_per_protein=1)
-# print("\n\n")
+print("DBD3: Others (O)")
+o_ranking_list, o_precision_list, o_recall_list, o_auc_roc_list, o_auc_pr_list, o_mcc_list, o_specificity_list, o_npv_list = dbd_sanity_test(dbd3_o_list, dbd3_o_templates_dict, verbose=True, iteration_per_protein=30)
+print("\n\n")
 
-# print("DBD3: All Datasets")
-# dbd3_ranking_list = e_ranking_list + a_ranking_list + ab_ranking_list + o_ranking_list
-# dbd3_precision_list = e_precision_list + a_precision_list + ab_precision_list + o_precision_list
-# dbd3_recall_list = e_recall_list + a_recall_list + ab_recall_list + o_recall_list
-# dbd3_auc_roc_list = e_auc_roc_list + a_auc_roc_list + ab_auc_roc_list + o_auc_roc_list
-# dbd3_auc_pr_list = e_auc_pr_list + a_auc_pr_list + ab_auc_pr_list + o_auc_pr_list
-# dbd3_mcc_list = e_mcc_list + a_mcc_list + ab_mcc_list + o_mcc_list
-# dbd3_specificity_list = e_specificity_list + a_specificity_list + ab_specificity_list + o_specificity_list
-# dbd3_npv_list = e_npv_list + a_npv_list + ab_npv_list + o_npv_list
+print("DBD3: All Datasets")
+dbd3_ranking_list = e_ranking_list + a_ranking_list + ab_ranking_list + o_ranking_list
+dbd3_precision_list = e_precision_list + a_precision_list + ab_precision_list + o_precision_list
+dbd3_recall_list = e_recall_list + a_recall_list + ab_recall_list + o_recall_list
+dbd3_auc_roc_list = e_auc_roc_list + a_auc_roc_list + ab_auc_roc_list + o_auc_roc_list
+dbd3_auc_pr_list = e_auc_pr_list + a_auc_pr_list + ab_auc_pr_list + o_auc_pr_list
+dbd3_mcc_list = e_mcc_list + a_mcc_list + ab_mcc_list + o_mcc_list
+dbd3_specificity_list = e_specificity_list + a_specificity_list + ab_specificity_list + o_specificity_list
+dbd3_npv_list = e_npv_list + a_npv_list + ab_npv_list + o_npv_list
 
-# print("Mean Precision:", np.mean(dbd3_precision_list))
-# print("Mean Recall:", np.mean(dbd3_recall_list))
-# print("Mean AUC-ROC:", np.mean(dbd3_auc_roc_list))
-# print("Mean AUC-PR:", np.mean(dbd3_auc_pr_list))
-# print("Mean MCC:", np.mean(dbd3_mcc_list))
-# print("Mean Specificity:", np.mean(dbd3_specificity_list))
-# print("Mean NPV:", np.mean(dbd3_npv_list))
+print("Mean Precision:", np.mean(dbd3_precision_list))
+print("Mean Recall:", np.mean(dbd3_recall_list))
+print("Mean AUC-ROC:", np.mean(dbd3_auc_roc_list))
+print("Mean AUC-PR:", np.mean(dbd3_auc_pr_list))
+print("Mean MCC:", np.mean(dbd3_mcc_list))
+print("Mean Specificity:", np.mean(dbd3_specificity_list))
+print("Mean NPV:", np.mean(dbd3_npv_list))
 
 # """**GA Parameter Tuning Execution**"""
 
