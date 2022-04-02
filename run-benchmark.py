@@ -9,6 +9,11 @@ from Bio.PDB import *
 from sklearn.metrics import roc_auc_score, average_precision_score, precision_score, recall_score, matthews_corrcoef, confusion_matrix
 from Bio.PDB.SASA import ShrakeRupley
 from Bio.PDB.ResidueDepth import ResidueDepth
+import warnings
+import time
+import math
+
+start_time = time.time()
 
 random.seed(10)
 
@@ -75,6 +80,8 @@ kyte_doolittle_dict = {
 }
 
 amino_acid_list = list(lha_dict.keys())
+
+warnings.filterwarnings("ignore")
 
 """**Residue Definition**"""
 
@@ -1393,3 +1400,11 @@ print("\n\n")
 # print("Mean MCC:", np.mean(dbd3_mcc_list))
 # print("Mean Specificity:", np.mean(dbd3_specificity_list))
 # print("Mean NPV:", np.mean(dbd3_npv_list))
+
+
+num_sec = int(time.time() - start_time)
+num_hours = math.floor(num_sec / (60 * 60))
+num_sec = num_sec % (60 * 60)
+num_minutes = math.floor(num_sec / 60)
+num_sec = num_sec % 60
+print("Executed in ", num_hours, "hours,", num_minutes, "minutes,", num_sec, "seconds")
