@@ -1157,12 +1157,14 @@ def dbd_all_templates(pdb_id_list, templates_dict, ranking_size=100, verbose=Fal
                         template_size = len(interface_template)
                         if verbose:
                             print("use template of ", template_pdb_id, "with template size:", template_size)
+                            print_interface_info(interface_template)
                         current_population_list = gass_ppi(monomer_pdb_structure, interface_template, verbose=False)
-                        normalised_population_list = [(individual[0], individual[1] / template_size) for individual in current_population_list]
-                        aggregated_population_list += normalised_population_list
+                        # normalised_population_list = [(individual[0], individual[1] / template_size) for individual in current_population_list]
+                        # aggregated_population_list += normalised_population_list
+                        aggregated_population_list += current_population_list
 
             aggregated_population_list.sort(key = lambda x: x[1])
-            aggregated_population_list = aggregated_population_list[:ranking_size]
+            # aggregated_population_list = aggregated_population_list[:ranking_size]
 
             # Step 3: Evaluation
             actual_interface = templates_dict[monomer_pdb_id]
