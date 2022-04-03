@@ -1147,17 +1147,17 @@ def dbd_all_templates(pdb_id_list, templates_dict, ranking_size=100, verbose=Fal
             monomer_pdb_structure = load_pdb(monomer_pdb_id, dbd5_path, pdb_parser, lha_dict, "lha")
             aggregated_population_list = []
 
-            if verbose:
-                print("Currently evaluating:", monomer_pdb_id)
+            # if verbose:
+            #     print("Currently evaluating:", monomer_pdb_id)
 
             # Step 2: GASS-PPI with all templates except its own
             for template_pdb_id, interface_template in templates_dict.items():
                 if (monomer_pdb_id != template_pdb_id):
                     if can_run_gass_ppi(monomer_pdb_structure, interface_template):
                         template_size = len(interface_template)
-                        if verbose:
-                            print("use template of ", template_pdb_id, "with template size:", template_size)
-                            print_interface_info(interface_template)
+                        # if verbose:
+                        #     print("use template of ", template_pdb_id, "with template size:", template_size)
+                        #     print_interface_info(interface_template)
                         current_population_list = gass_ppi(monomer_pdb_structure, interface_template, verbose=False)
                         # normalised_population_list = [(individual[0], individual[1] / template_size) for individual in current_population_list]
                         # aggregated_population_list += normalised_population_list
@@ -1370,21 +1370,21 @@ Below indicates the performance of the SOTA methods:
 # print("Mean NPV:", np.mean(dbd5_npv_list))
 
 # # DBD3 Same Protein Family for each Complex Category Labels
-print("DBD3: Enzyme-Inhibitor or Enzyme-Substrate (E)")
-e_ranking_list, e_precision_list, e_recall_list, e_auc_roc_list, e_auc_pr_list, e_mcc_list, e_specificity_list, e_npv_list = dbd_all_templates(dbd3_e_list, dbd3_e_templates_dict, verbose=True)
+# print("DBD3: Enzyme-Inhibitor or Enzyme-Substrate (E)")
+# e_ranking_list, e_precision_list, e_recall_list, e_auc_roc_list, e_auc_pr_list, e_mcc_list, e_specificity_list, e_npv_list = dbd_all_templates(dbd3_e_list, dbd3_e_templates_dict, verbose=True)
+# print("\n\n")
+
+print("DBD3: Antibody-Antigen (A)")
+a_ranking_list, a_precision_list, a_recall_list, a_auc_roc_list, a_auc_pr_list, a_mcc_list, a_specificity_list, a_npv_list = dbd_all_templates(dbd3_a_list, dbd3_a_templates_dict, verbose=True)
 print("\n\n")
 
-# print("DBD3: Antibody-Antigen (A)")
-# a_ranking_list, a_precision_list, a_recall_list, a_auc_roc_list, a_auc_pr_list, a_mcc_list, a_specificity_list, a_npv_list = dbd_all_templates(dbd3_a_list[:1], dbd3_a_templates_dict, verbose=True)
-# print("\n\n")
+print("DBD3: Antigen-Bound Antibody (AB)")
+ab_ranking_list, ab_precision_list, ab_recall_list, ab_auc_roc_list, ab_auc_pr_list, ab_mcc_list, ab_specificity_list, ab_npv_list = dbd_all_templates(dbd3_ab_list, dbd3_ab_templates_dict, verbose=True)
+print("\n\n")
 
-# print("DBD3: Antigen-Bound Antibody (AB)")
-# ab_ranking_list, ab_precision_list, ab_recall_list, ab_auc_roc_list, ab_auc_pr_list, ab_mcc_list, ab_specificity_list, ab_npv_list = dbd_all_templates(dbd3_ab_list, dbd3_ab_templates_dict, verbose=True)
-# print("\n\n")
-
-# print("DBD3: Others (O)")
-# o_ranking_list, o_precision_list, o_recall_list, o_auc_roc_list, o_auc_pr_list, o_mcc_list, o_specificity_list, o_npv_list = dbd_all_templates(dbd3_o_list, dbd3_o_templates_dict, verbose=True)
-# print("\n\n")
+print("DBD3: Others (O)")
+o_ranking_list, o_precision_list, o_recall_list, o_auc_roc_list, o_auc_pr_list, o_mcc_list, o_specificity_list, o_npv_list = dbd_all_templates(dbd3_o_list, dbd3_o_templates_dict, verbose=True)
+print("\n\n")
 
 # print("DBD3: All Datasets")
 # dbd3_ranking_list = e_ranking_list + a_ranking_list + ab_ranking_list + o_ranking_list
