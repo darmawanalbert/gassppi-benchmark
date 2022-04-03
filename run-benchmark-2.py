@@ -1318,65 +1318,65 @@ Below indicates the performance of the SOTA methods:
 
 # """**Same Protein Family Execution**"""
 
-# # DBD5 Same Protein Family for each complex category labels
-# print("DBD5: Enzyme-Inhibitor (EI)")
-# ei_ranking_list, ei_precision_list, ei_recall_list, ei_auc_roc_list, ei_auc_pr_list, ei_mcc_list, ei_specificity_list, ei_npv_list = dbd_all_templates(dbd5_ei_list, dbd5_ei_templates_dict, verbose=True)
-# print("\n\n")
+# DBD5 Same Protein Family for each complex category labels
+print("DBD5: Enzyme-Inhibitor (EI)")
+ei_ranking_list, ei_precision_list, ei_recall_list, ei_auc_roc_list, ei_auc_pr_list, ei_mcc_list, ei_specificity_list, ei_npv_list = dbd_all_templates(dbd5_ei_list, dbd5_ei_templates_dict, verbose=True)
+print("\n\n")
 
-# print("DBD5: Enzyme-Substrate (ES)")
-# es_ranking_list, es_precision_list, es_recall_list, es_auc_roc_list, es_auc_pr_list, es_mcc_list, es_specificity_list, es_npv_list = dbd_all_templates(dbd5_es_list, dbd5_es_templates_dict, verbose=True)
-# print("\n\n")
+print("DBD5: Enzyme-Substrate (ES)")
+es_ranking_list, es_precision_list, es_recall_list, es_auc_roc_list, es_auc_pr_list, es_mcc_list, es_specificity_list, es_npv_list = dbd_all_templates(dbd5_es_list, dbd5_es_templates_dict, verbose=True)
+print("\n\n")
 
-# print("DBD5: Enzyme complex with a regulatory or accessory chain (ER)")
-# er_ranking_list, er_precision_list, er_recall_list, er_auc_roc_list, er_auc_pr_list, er_mcc_list, er_specificity_list, er_npv_list = dbd_all_templates(dbd5_er_list, dbd5_er_templates_dict, verbose=True)
-# print("\n\n")
+print("DBD5: Enzyme complex with a regulatory or accessory chain (ER)")
+er_ranking_list, er_precision_list, er_recall_list, er_auc_roc_list, er_auc_pr_list, er_mcc_list, er_specificity_list, er_npv_list = dbd_all_templates(dbd5_er_list, dbd5_er_templates_dict, verbose=True)
+print("\n\n")
 
-# print("DBD5: Antibody-Antigen (A)")
-# a_ranking_list, a_precision_list, a_recall_list, a_auc_roc_list, a_auc_pr_list, a_mcc_list, a_specificity_list, a_npv_list = dbd_all_templates(dbd5_a_list, dbd5_a_templates_dict, verbose=True)
-# print("\n\n")
+print("DBD5: Antibody-Antigen (A)")
+a_ranking_list, a_precision_list, a_recall_list, a_auc_roc_list, a_auc_pr_list, a_mcc_list, a_specificity_list, a_npv_list = dbd_all_templates(dbd5_a_list, dbd5_a_templates_dict, verbose=True)
+print("\n\n")
 
-# print("DBD5: Antigen-Bound Antibody (AB)")
-# ab_ranking_list, ab_precision_list, ab_recall_list, ab_auc_roc_list, ab_auc_pr_list, ab_mcc_list, ab_specificity_list, ab_npv_list = dbd_all_templates(dbd5_ab_list, dbd5_ab_templates_dict, verbose=True)
-# print("\n\n")
+print("DBD5: Antigen-Bound Antibody (AB)")
+ab_ranking_list, ab_precision_list, ab_recall_list, ab_auc_roc_list, ab_auc_pr_list, ab_mcc_list, ab_specificity_list, ab_npv_list = dbd_all_templates(dbd5_ab_list, dbd5_ab_templates_dict, verbose=True)
+print("\n\n")
 
-# print("DBD5: Others, G-protein containing (OG)")
-# og_ranking_list, og_precision_list, og_recall_list, og_auc_roc_list, og_auc_pr_list, og_mcc_list, og_specificity_list, og_npv_list = dbd_all_templates(dbd5_og_list, dbd5_og_templates_dict, verbose=True)
-# print("\n\n")
+print("DBD5: Others, G-protein containing (OG)")
+og_ranking_list, og_precision_list, og_recall_list, og_auc_roc_list, og_auc_pr_list, og_mcc_list, og_specificity_list, og_npv_list = dbd_all_templates(dbd5_og_list, dbd5_og_templates_dict, verbose=True)
+print("\n\n")
 
-# print("DBD5: Others, Receptor containing (OR)")
-# or_ranking_list, or_precision_list, or_recall_list, or_auc_roc_list, or_auc_pr_list, or_mcc_list, or_specificity_list, or_npv_list = dbd_all_templates(dbd5_or_list, dbd5_or_templates_dict, verbose=True)
-# print("\n\n")
+print("DBD5: Others, Receptor containing (OR)")
+or_ranking_list, or_precision_list, or_recall_list, or_auc_roc_list, or_auc_pr_list, or_mcc_list, or_specificity_list, or_npv_list = dbd_all_templates(dbd5_or_list, dbd5_or_templates_dict, verbose=True)
+print("\n\n")
 
-# print("DBD5: Others, miscellaneous (OX)")
-# ox_ranking_list, ox_precision_list, ox_recall_list, ox_auc_roc_list, ox_auc_pr_list, ox_mcc_list, ox_specificity_list, ox_npv_list = dbd_all_templates(dbd5_ox_list, dbd5_ox_templates_dict, verbose=True)
-# print("\n\n")
+print("DBD5: Others, miscellaneous (OX)")
+ox_ranking_list, ox_precision_list, ox_recall_list, ox_auc_roc_list, ox_auc_pr_list, ox_mcc_list, ox_specificity_list, ox_npv_list = dbd_all_templates(dbd5_ox_list, dbd5_ox_templates_dict, verbose=True)
+print("\n\n")
 
-# print("DBD5: All Datasets")
-# dbd5_ranking_list = ei_ranking_list + es_ranking_list + er_ranking_list + a_ranking_list + ab_ranking_list + og_ranking_list + or_ranking_list + ox_ranking_list
-# dbd5_precision_list = ei_precision_list + es_precision_list + er_precision_list + a_precision_list + ab_precision_list + og_precision_list + or_precision_list + ox_precision_list
-# dbd5_recall_list = ei_recall_list + es_recall_list + er_recall_list + a_recall_list + ab_recall_list + og_recall_list + or_recall_list + ox_recall_list
-# dbd5_auc_roc_list = ei_auc_roc_list + es_auc_roc_list + er_auc_roc_list + a_auc_roc_list + ab_auc_roc_list + og_auc_roc_list + or_auc_roc_list + ox_auc_roc_list
-# dbd5_auc_pr_list = ei_auc_pr_list + es_auc_pr_list + er_auc_pr_list + a_auc_pr_list + ab_auc_pr_list + og_auc_pr_list + or_auc_pr_list + ox_auc_pr_list
-# dbd5_mcc_list = ei_mcc_list + es_mcc_list + er_mcc_list + a_mcc_list + ab_mcc_list + og_mcc_list + or_mcc_list + ox_mcc_list
-# dbd5_specificity_list = ei_specificity_list + es_specificity_list + er_specificity_list + a_specificity_list + ab_specificity_list + og_specificity_list + or_specificity_list + ox_specificity_list
-# dbd5_npv_list = ei_npv_list + es_npv_list + er_npv_list + a_npv_list + ab_npv_list + og_npv_list + or_npv_list + ox_npv_list
+print("DBD5: All Datasets")
+dbd5_ranking_list = ei_ranking_list + es_ranking_list + er_ranking_list + a_ranking_list + ab_ranking_list + og_ranking_list + or_ranking_list + ox_ranking_list
+dbd5_precision_list = ei_precision_list + es_precision_list + er_precision_list + a_precision_list + ab_precision_list + og_precision_list + or_precision_list + ox_precision_list
+dbd5_recall_list = ei_recall_list + es_recall_list + er_recall_list + a_recall_list + ab_recall_list + og_recall_list + or_recall_list + ox_recall_list
+dbd5_auc_roc_list = ei_auc_roc_list + es_auc_roc_list + er_auc_roc_list + a_auc_roc_list + ab_auc_roc_list + og_auc_roc_list + or_auc_roc_list + ox_auc_roc_list
+dbd5_auc_pr_list = ei_auc_pr_list + es_auc_pr_list + er_auc_pr_list + a_auc_pr_list + ab_auc_pr_list + og_auc_pr_list + or_auc_pr_list + ox_auc_pr_list
+dbd5_mcc_list = ei_mcc_list + es_mcc_list + er_mcc_list + a_mcc_list + ab_mcc_list + og_mcc_list + or_mcc_list + ox_mcc_list
+dbd5_specificity_list = ei_specificity_list + es_specificity_list + er_specificity_list + a_specificity_list + ab_specificity_list + og_specificity_list + or_specificity_list + ox_specificity_list
+dbd5_npv_list = ei_npv_list + es_npv_list + er_npv_list + a_npv_list + ab_npv_list + og_npv_list + or_npv_list + ox_npv_list
 
-# print("Mean Precision:", np.mean(dbd5_precision_list))
-# print("Mean Recall:", np.mean(dbd5_recall_list))
-# print("Mean AUC-ROC:", np.mean(dbd5_auc_roc_list))
-# print("Mean AUC-PR:", np.mean(dbd5_auc_pr_list))
-# print("Mean MCC:", np.mean(dbd5_mcc_list))
-# print("Mean Specificity:", np.mean(dbd5_specificity_list))
-# print("Mean NPV:", np.mean(dbd5_npv_list))
+print("Mean Precision:", np.mean(dbd5_precision_list))
+print("Mean Recall:", np.mean(dbd5_recall_list))
+print("Mean AUC-ROC:", np.mean(dbd5_auc_roc_list))
+print("Mean AUC-PR:", np.mean(dbd5_auc_pr_list))
+print("Mean MCC:", np.mean(dbd5_mcc_list))
+print("Mean Specificity:", np.mean(dbd5_specificity_list))
+print("Mean NPV:", np.mean(dbd5_npv_list))
 
 # # DBD3 Same Protein Family for each Complex Category Labels
 # print("DBD3: Enzyme-Inhibitor or Enzyme-Substrate (E)")
 # e_ranking_list, e_precision_list, e_recall_list, e_auc_roc_list, e_auc_pr_list, e_mcc_list, e_specificity_list, e_npv_list = dbd_all_templates(dbd3_e_list, dbd3_e_templates_dict, verbose=True)
 # print("\n\n")
 
-print("DBD5: All Templates (1 protein only")
-_, _, _, _, _, _, _, _ = dbd_all_templates(dbd5_all_list[:1], dbd5_all_templates_dict, verbose=True)
-print("\n\n")
+# print("DBD5: All Templates (1 protein only")
+# _, _, _, _, _, _, _, _ = dbd_all_templates(dbd5_all_list[:1], dbd5_all_templates_dict, verbose=True)
+# print("\n\n")
 
 # print("DBD3: Antigen-Bound Antibody (AB)")
 # ab_ranking_list, ab_precision_list, ab_recall_list, ab_auc_roc_list, ab_auc_pr_list, ab_mcc_list, ab_specificity_list, ab_npv_list = dbd_all_templates(dbd3_ab_list, dbd3_ab_templates_dict, verbose=True)
