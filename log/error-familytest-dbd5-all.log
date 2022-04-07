@@ -1,0 +1,17 @@
+DBD5: Enzyme-Inhibitor (EI)
+Traceback (most recent call last):
+  File "run-benchmark-2.py", line 1323, in <module>
+    ei_ranking_list, ei_precision_list, ei_recall_list, ei_auc_roc_list, ei_auc_pr_list, ei_mcc_list, ei_specificity_list, ei_npv_list = dbd_all_templates(dbd5_ei_list, dbd5_ei_templates_dict, verbose=True)
+  File "run-benchmark-2.py", line 1171, in dbd_all_templates
+    individual_ranking, precision, recall, auc_roc, auc_pr, mcc, specificity, npv = evaluate_ppi_population(actual_interface, aggregated_population_list, monomer_pdb_structure, ranking_size)
+  File "run-benchmark-2.py", line 927, in evaluate_ppi_population
+    precision, recall, auc_roc, auc_pr, mcc, specificity, npv = evaluate_ppi(actual_interface, population_list[i][0], protein_structure)
+  File "run-benchmark-2.py", line 884, in evaluate_ppi
+    auc_roc = roc_auc_score(y_actual, y_pred)
+  File "/usr/local/lib/python3.8/dist-packages/sklearn/metrics/_ranking.py", line 567, in roc_auc_score
+    return _average_binary_score(
+  File "/usr/local/lib/python3.8/dist-packages/sklearn/metrics/_base.py", line 75, in _average_binary_score
+    return binary_metric(y_true, y_score, sample_weight=sample_weight)
+  File "/usr/local/lib/python3.8/dist-packages/sklearn/metrics/_ranking.py", line 337, in _binary_roc_auc_score
+    raise ValueError(
+ValueError: Only one class present in y_true. ROC AUC score is not defined in that case.

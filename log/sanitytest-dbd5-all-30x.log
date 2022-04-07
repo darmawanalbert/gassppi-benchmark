@@ -1,0 +1,163 @@
+sphere_mange_arete: inconcistence
+ERROR: find_SES_contact_faces: inf==0 for face 2794
+225
+123
+450
+246
+DBD5: Enzyme-Inhibitor (EI)
+Cannot run GASS-PPI on  2O3B_l_u
+Cannot run GASS-PPI on  2O3B_l_u
+Cannot run GASS-PPI on  2O3B_l_u
+Cannot run GASS-PPI on  2O3B_l_u
+Cannot run GASS-PPI on  2O3B_l_u
+Cannot run GASS-PPI on  2O3B_l_u
+Cannot run GASS-PPI on  2O3B_l_u
+Cannot run GASS-PPI on  2O3B_l_u
+Cannot run GASS-PPI on  2O3B_l_u
+Cannot run GASS-PPI on  2O3B_l_u
+Cannot run GASS-PPI on  2O3B_l_u
+Cannot run GASS-PPI on  2O3B_l_u
+Cannot run GASS-PPI on  2O3B_l_u
+Cannot run GASS-PPI on  2O3B_l_u
+Cannot run GASS-PPI on  2O3B_l_u
+Cannot run GASS-PPI on  2O3B_l_u
+Cannot run GASS-PPI on  2O3B_l_u
+Cannot run GASS-PPI on  2O3B_l_u
+Cannot run GASS-PPI on  2O3B_l_u
+Cannot run GASS-PPI on  2O3B_l_u
+Cannot run GASS-PPI on  2O3B_l_u
+Cannot run GASS-PPI on  2O3B_l_u
+Cannot run GASS-PPI on  2O3B_l_u
+Cannot run GASS-PPI on  2O3B_l_u
+Cannot run GASS-PPI on  2O3B_l_u
+Cannot run GASS-PPI on  2O3B_l_u
+Cannot run GASS-PPI on  2O3B_l_u
+Cannot run GASS-PPI on  2O3B_l_u
+Cannot run GASS-PPI on  2O3B_l_u
+Cannot run GASS-PPI on  2O3B_l_u
+Cannot run GASS-PPI on  2O3B_r_u
+Cannot run GASS-PPI on  2O3B_r_u
+Cannot run GASS-PPI on  2O3B_r_u
+Cannot run GASS-PPI on  2O3B_r_u
+Cannot run GASS-PPI on  2O3B_r_u
+Cannot run GASS-PPI on  2O3B_r_u
+Cannot run GASS-PPI on  2O3B_r_u
+Cannot run GASS-PPI on  2O3B_r_u
+Cannot run GASS-PPI on  2O3B_r_u
+Cannot run GASS-PPI on  2O3B_r_u
+Cannot run GASS-PPI on  2O3B_r_u
+Cannot run GASS-PPI on  2O3B_r_u
+Cannot run GASS-PPI on  2O3B_r_u
+Cannot run GASS-PPI on  2O3B_r_u
+Cannot run GASS-PPI on  2O3B_r_u
+Cannot run GASS-PPI on  2O3B_r_u
+Cannot run GASS-PPI on  2O3B_r_u
+Cannot run GASS-PPI on  2O3B_r_u
+Cannot run GASS-PPI on  2O3B_r_u
+Cannot run GASS-PPI on  2O3B_r_u
+Cannot run GASS-PPI on  2O3B_r_u
+Cannot run GASS-PPI on  2O3B_r_u
+Cannot run GASS-PPI on  2O3B_r_u
+Cannot run GASS-PPI on  2O3B_r_u
+Cannot run GASS-PPI on  2O3B_r_u
+Cannot run GASS-PPI on  2O3B_r_u
+Cannot run GASS-PPI on  2O3B_r_u
+Cannot run GASS-PPI on  2O3B_r_u
+Cannot run GASS-PPI on  2O3B_r_u
+Cannot run GASS-PPI on  2O3B_r_u
+Mean Precision:  0.9082264985257539
+Mean Recall:  0.9064977229422032
+Mean AUC-ROC Score:  0.9402233250527368
+Mean AUC-PR Score:  0.8990258716334815
+Mean MCC:  0.9033133437146332
+Mean Specificity:  0.9739489271632703
+Mean NPV:  0.9725262878323844
+
+
+
+DBD5: Enzyme-Substrate (ES)
+Mean Precision:  0.9147951503833858
+Mean Recall:  0.912237218119571
+Mean AUC-ROC Score:  0.9556284835786091
+Mean AUC-PR Score:  0.9089780025236152
+Mean MCC:  0.9124311979990124
+Mean Specificity:  0.9990197490376472
+Mean NPV:  0.9988819808422655
+
+
+
+DBD5: Enzyme complex with a regulatory or accessory chain (ER)
+Mean Precision:  0.8825480247362824
+Mean Recall:  0.8820902020964057
+Mean AUC-ROC Score:  0.9398421211059095
+Mean AUC-PR Score:  0.8721853100679392
+Mean MCC:  0.8798428074382513
+Mean Specificity:  0.9975940401154135
+Mean NPV:  0.9974575478930514
+
+
+
+DBD5: Antibody-Antigen (A)
+Mean Precision:  0.7902046518886067
+Mean Recall:  0.7866839316392888
+Mean AUC-ROC Score:  0.890957777894888
+Mean AUC-PR Score:  0.757544550914049
+Mean MCC:  0.783458719341387
+Mean Specificity:  0.9952316241504869
+Mean NPV:  0.9948649374472135
+
+
+
+DBD5: Antigen-Bound Antibody (AB)
+Mean Precision:  0.7870598845598846
+Mean Recall:  0.7855355503082776
+Mean AUC-ROC Score:  0.8909562004631129
+Mean AUC-PR Score:  0.768580699656214
+Mean MCC:  0.7825314424957219
+Mean Specificity:  0.996376850617948
+Mean NPV:  0.9961283326253131
+
+
+
+DBD5: Others, G-protein containing (OG)
+Mean Precision:  0.8662886315697931
+Mean Recall:  0.8656880729947429
+Mean AUC-ROC Score:  0.9308619446613358
+Mean AUC-PR Score:  0.8455146031020739
+Mean MCC:  0.8619891473512952
+Mean Specificity:  0.9960358163279285
+Mean NPV:  0.9959731099661052
+
+
+
+DBD5: Others, Receptor containing (OR)
+Mean Precision:  0.8435731169502304
+Mean Recall:  0.8402909893534893
+Mean AUC-ROC Score:  0.914499499774891
+Mean AUC-PR Score:  0.8203923224059935
+Mean MCC:  0.82953960784276
+Mean Specificity:  0.9887080101962928
+Mean NPV:  0.9865274351768686
+
+
+
+DBD5: Others, miscellaneous (OX)
+Mean Precision:  0.8053431764270218
+Mean Recall:  0.8042186478055471
+Mean AUC-ROC Score:  0.8990294897731355
+Mean AUC-PR Score:  0.7826382125711875
+Mean MCC:  0.7985447961534743
+Mean Specificity:  0.9938403317407241
+Mean NPV:  0.9937103473603114
+
+
+
+DBD5: All Datasets
+Mean Precision: 0.8501838205553319
+Mean Recall: 0.8484155467579495
+Mean AUC-ROC: 0.9195826126581009
+Mean AUC-PR: 0.8319362499606493
+Mean MCC: 0.8441633371960893
+Mean Specificity: 0.9907496785582521
+Mean NPV: 0.990118464567843
+Executed in  12 hours, 15 minutes, 17 seconds

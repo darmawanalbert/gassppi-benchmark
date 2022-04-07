@@ -1,0 +1,47 @@
+DBD3: Enzyme-Inhibitor or Enzyme-Substrate (E)
+Mean Precision:  0.4
+Mean Recall:  0.05393017696589126
+Mean AUC-ROC Score:  0.5244511680305867
+Mean AUC-PR Score:  0.10086537012167197
+Mean MCC:  0.12980914852495476
+Mean Specificity:  0.9949721590952824
+Mean NPV:  0.9524807247138272
+
+
+
+Executed in  2 hours, 51 minutes, 7 seconds
+
+DBD3: Antibody-Antigen (A)
+Mean Precision:  0.19230769230769232
+Mean Recall:  0.019261294261294262
+Mean AUC-ROC Score:  0.5076184804797333
+Mean AUC-PR Score:  0.051302556170289976
+Mean MCC:  0.04876207600284484
+Mean Specificity:  0.9959756666981725
+Mean NPV:  0.967763778860242
+
+
+
+DBD3: Antigen-Bound Antibody (AB)
+Mean Precision:  0.01515151515151515
+Mean Recall:  0.007575757575757575
+Mean AUC-ROC Score:  0.4976074859031607
+Mean AUC-PR Score:  0.03343453883091956
+Mean MCC:  -0.008794887118830587
+Mean Specificity:  0.9876392142305637
+Mean NPV:  0.968487867812841
+
+
+
+DBD3: Others (O)
+Mean Precision:  0.4375
+Mean Recall:  0.05643067054289005
+Mean AUC-ROC Score:  0.5262958070399602
+Mean AUC-PR Score:  0.10067201248323672
+Mean MCC:  0.13779488522655312
+Mean Specificity:  0.9961609435370302
+Mean NPV:  0.9554099696496618
+
+
+
+Executed in  21 hours, 4 minutes, 27 seconds
