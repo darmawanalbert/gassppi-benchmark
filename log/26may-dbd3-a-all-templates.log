@@ -1,0 +1,41 @@
+ERROR: find_SES_contact_faces: inf==0 for face 2794
+450
+246
+DBD3: Antibody-Antigen (A)
+Currently evaluating: 1AHW_l_u
+Currently evaluating: 1AHW_r_u
+Currently evaluating: 1BVK_l_u
+Currently evaluating: 1BVK_r_u
+Currently evaluating: 1DQJ_l_u
+Currently evaluating: 1DQJ_r_u
+Currently evaluating: 1E6J_l_u
+Currently evaluating: 1E6J_r_u
+Currently evaluating: 1JPS_l_u
+Currently evaluating: 1JPS_r_u
+Currently evaluating: 1MLC_l_u
+Currently evaluating: 1MLC_r_u
+Currently evaluating: 1VFB_l_u
+Currently evaluating: 1VFB_r_u
+Currently evaluating: 1WEJ_l_u
+Currently evaluating: 1WEJ_r_u
+Currently evaluating: 2FD6_l_u
+Currently evaluating: 2FD6_r_u
+Currently evaluating: 2I25_l_u
+Currently evaluating: 2I25_r_u
+Currently evaluating: 2VIS_l_u
+Currently evaluating: 2VIS_r_u
+Currently evaluating: 1BGX_l_u
+Currently evaluating: 1BGX_r_u
+Currently evaluating: 1E4K_l_u
+Currently evaluating: 1E4K_r_u
+Mean Precision:  0.4137164617150535
+Mean Recall:  0.5049331010869472
+Mean AUC-ROC Score:  0.719310042970283
+Mean AUC-PR Score:  0.2385332350083254
+Mean MCC:  0.38670862664062783
+Mean Specificity:  0.9336869848536182
+Mean NPV:  0.9658388036698794
+
+
+
+Executed in  12 hours, 52 minutes, 47 seconds
