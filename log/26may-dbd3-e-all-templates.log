@@ -1,0 +1,82 @@
+DBD3: Enzyme-Inhibitor or Enzyme-Substrate (E)
+Currently evaluating: 1AVX_l_u
+Currently evaluating: 1AVX_r_u
+Currently evaluating: 1AY7_l_u
+Currently evaluating: 1AY7_r_u
+Currently evaluating: 1BVN_l_u
+Currently evaluating: 1BVN_r_u
+Currently evaluating: 1CGI_l_u
+Currently evaluating: 1CGI_r_u
+Currently evaluating: 1D6R_l_u
+Currently evaluating: 1D6R_r_u
+Currently evaluating: 1DFJ_l_u
+Currently evaluating: 1DFJ_r_u
+Currently evaluating: 1E6E_l_u
+Currently evaluating: 1E6E_r_u
+Currently evaluating: 1EAW_l_u
+Currently evaluating: 1EAW_r_u
+Currently evaluating: 1EWY_l_u
+Currently evaluating: 1EWY_r_u
+Currently evaluating: 1EZU_l_u
+Currently evaluating: 1EZU_r_u
+Currently evaluating: 1F34_l_u
+Currently evaluating: 1F34_r_u
+Currently evaluating: 1HIA_l_u
+Currently evaluating: 1HIA_r_u
+Currently evaluating: 1MAH_l_u
+Currently evaluating: 1MAH_r_u
+Currently evaluating: 1N8O_l_u
+Currently evaluating: 1N8O_r_u
+Currently evaluating: 1OPH_l_u
+Currently evaluating: 1OPH_r_u
+Currently evaluating: 1PPE_l_u
+Currently evaluating: 1PPE_r_u
+Currently evaluating: 1R0R_l_u
+Currently evaluating: 1R0R_r_u
+Currently evaluating: 1TMQ_l_u
+Currently evaluating: 1TMQ_r_u
+Currently evaluating: 1UDI_l_u
+Currently evaluating: 1UDI_r_u
+Currently evaluating: 1YVB_l_u
+Currently evaluating: 1YVB_r_u
+Currently evaluating: 2B42_l_u
+Currently evaluating: 2B42_r_u
+Currently evaluating: 2MTA_l_u
+Currently evaluating: 2MTA_r_u
+Currently evaluating: 2O8V_l_u
+Currently evaluating: 2O8V_r_u
+Currently evaluating: 2PCC_l_u
+Currently evaluating: 2PCC_r_u
+Currently evaluating: 2SIC_l_u
+Currently evaluating: 2SIC_r_u
+Currently evaluating: 2SNI_l_u
+Currently evaluating: 2SNI_r_u
+Currently evaluating: 2UUY_l_u
+Currently evaluating: 2UUY_r_u
+Currently evaluating: 7CEI_l_u
+Currently evaluating: 7CEI_r_u
+Currently evaluating: 1ACB_l_u
+Currently evaluating: 1ACB_r_u
+Currently evaluating: 1IJK_l_u
+Currently evaluating: 1IJK_r_u
+Currently evaluating: 1KKL_l_u
+Currently evaluating: 1KKL_r_u
+Currently evaluating: 1M10_l_u
+Currently evaluating: 1M10_r_u
+Currently evaluating: 1NW9_l_u
+Currently evaluating: 1NW9_r_u
+Currently evaluating: 1FQ1_l_u
+Currently evaluating: 1FQ1_r_u
+Currently evaluating: 1PXV_l_u
+Currently evaluating: 1PXV_r_u
+Mean Precision:  0.37601934833573475
+Mean Recall:  0.4594533723593826
+Mean AUC-ROC Score:  0.6912193100408437
+Mean AUC-PR Score:  0.22051464706901558
+Mean MCC:  0.3364353983929769
+Mean Specificity:  0.9229852477223048
+Mean NPV:  0.9407048917865575
+
+
+
+Executed in  23 hours, 23 minutes, 21 seconds
