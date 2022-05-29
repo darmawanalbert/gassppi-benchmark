@@ -1,0 +1,46 @@
+DBD5: Enzyme-Substrate (ES)
+Currently evaluating: 1E6E_l_u
+Currently evaluating: 1E6E_r_u
+Currently evaluating: 1EWY_l_u
+Currently evaluating: 1EWY_r_u
+Currently evaluating: 1Z5Y_l_u
+Currently evaluating: 1Z5Y_r_u
+Currently evaluating: 2A1A_l_u
+Currently evaluating: 2A1A_r_u
+Currently evaluating: 2A9K_l_u
+Currently evaluating: 2A9K_r_u
+Currently evaluating: 2MTA_l_u
+Currently evaluating: 2MTA_r_u
+Currently evaluating: 2O8V_l_u
+Currently evaluating: 2O8V_r_u
+Currently evaluating: 2OOB_l_u
+Currently evaluating: 2OOB_r_u
+Currently evaluating: 2PCC_l_u
+Currently evaluating: 2PCC_r_u
+Currently evaluating: 4H03_l_u
+Currently evaluating: 4H03_r_u
+Currently evaluating: 1KKL_l_u
+Currently evaluating: 1KKL_r_u
+Currently evaluating: 1ZM4_l_u
+Currently evaluating: 1ZM4_r_u
+Currently evaluating: 4LW4_l_u
+Currently evaluating: 4LW4_r_u
+Currently evaluating: 1F6M_l_u
+Currently evaluating: 1F6M_r_u
+Currently evaluating: 1FQ1_l_u
+Currently evaluating: 1FQ1_r_u
+Currently evaluating: 1JK9_l_u
+Currently evaluating: 1JK9_r_u
+Currently evaluating: 2IDO_l_u
+Currently evaluating: 2IDO_r_u
+Mean Precision:  0.3593153598992205
+Mean Recall:  0.5113220113220113
+Mean AUC-ROC Score:  0.7232118083803138
+Mean AUC-PR Score:  0.2151471021248276
+Mean MCC:  0.3682133125936626
+Mean Specificity:  0.9351016054386164
+Mean NPV:  0.9619774714429755
+
+
+
+Executed in  22 hours, 1 minutes, 47 seconds

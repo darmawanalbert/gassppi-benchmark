@@ -1,0 +1,64 @@
+DBD5: Enzyme complex with a regulatory or accessory chain (ER)
+Currently evaluating: 1F51_l_u
+Currently evaluating: 1F51_r_u
+Currently evaluating: 1GLA_l_u
+Currently evaluating: 1GLA_r_u
+Currently evaluating: 1JWH_l_u
+Currently evaluating: 1JWH_r_u
+Currently evaluating: 1OC0_l_u
+Currently evaluating: 1OC0_r_u
+Currently evaluating: 1US7_l_u
+Currently evaluating: 1US7_r_u
+Currently evaluating: 1WDW_l_u
+Currently evaluating: 1WDW_r_u
+Currently evaluating: 2AYO_l_u
+Currently evaluating: 2AYO_r_u
+Currently evaluating: 2GAF_l_u
+Currently evaluating: 2GAF_r_u
+Currently evaluating: 2OOR_l_u
+Currently evaluating: 2OOR_r_u
+Currently evaluating: 2YVJ_l_u
+Currently evaluating: 2YVJ_r_u
+Currently evaluating: 3K75_l_u
+Currently evaluating: 3K75_r_u
+Currently evaluating: 3LVK_l_u
+Currently evaluating: 3LVK_r_u
+Currently evaluating: 3PC8_l_u
+Currently evaluating: 3PC8_r_u
+Currently evaluating: 1IJK_l_u
+Currently evaluating: 1IJK_r_u
+Currently evaluating: 1M10_l_u
+Currently evaluating: 1M10_r_u
+Currently evaluating: 1NW9_l_u
+Currently evaluating: 1NW9_r_u
+Currently evaluating: 1R6Q_l_u
+Currently evaluating: 1R6Q_r_u
+Currently evaluating: 2NZ8_l_u
+Currently evaluating: 2NZ8_r_u
+Currently evaluating: 2Z0E_l_u
+Currently evaluating: 2Z0E_r_u
+Currently evaluating: 4FZA_l_u
+Currently evaluating: 4FZA_r_u
+Currently evaluating: 1JMO_l_u
+Currently evaluating: 1JMO_r_u
+Currently evaluating: 1JZD_l_u
+Currently evaluating: 1JZD_r_u
+Currently evaluating: 2OT3_l_u
+Currently evaluating: 2OT3_r_u
+Currently evaluating: 3FN1_l_u
+Currently evaluating: 3FN1_r_u
+Currently evaluating: 3H11_l_u
+Currently evaluating: 3H11_r_u
+Currently evaluating: 4GAM_l_u
+Currently evaluating: 4GAM_r_u
+Mean Precision:  0.35976166874828047
+Mean Recall:  0.4536841079661187
+Mean AUC-ROC Score:  0.6928092456093891
+Mean AUC-PR Score:  0.201130782912138
+Mean MCC:  0.33739500458003785
+Mean Specificity:  0.9319343832526594
+Mean NPV:  0.9533855184162687
+
+
+
+Executed in  40 hours, 16 minutes, 2 seconds
