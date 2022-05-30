@@ -1,0 +1,68 @@
+DBD5: Antibody-Antigen (A)
+Currently evaluating: 1AHW_l_u
+Currently evaluating: 1AHW_r_u
+Currently evaluating: 1BVK_l_u
+Currently evaluating: 1BVK_r_u
+Currently evaluating: 1DQJ_l_u
+Currently evaluating: 1DQJ_r_u
+Currently evaluating: 1E6J_l_u
+Currently evaluating: 1E6J_r_u
+Currently evaluating: 1JPS_l_u
+Currently evaluating: 1JPS_r_u
+Currently evaluating: 1MLC_l_u
+Currently evaluating: 1MLC_r_u
+Currently evaluating: 1VFB_l_u
+Currently evaluating: 1VFB_r_u
+Currently evaluating: 1WEJ_l_u
+Currently evaluating: 1WEJ_r_u
+Currently evaluating: 2FD6_l_u
+Currently evaluating: 2FD6_r_u
+Currently evaluating: 2I25_l_u
+Currently evaluating: 2I25_r_u
+Currently evaluating: 2VIS_l_u
+Currently evaluating: 2VIS_r_u
+Currently evaluating: 2VXT_l_u
+Currently evaluating: 2VXT_r_u
+Currently evaluating: 2W9E_l_u
+Currently evaluating: 2W9E_r_u
+Currently evaluating: 3EOA_l_u
+Currently evaluating: 3EOA_r_u
+Currently evaluating: 3HMX_l_u
+Currently evaluating: 3HMX_r_u
+Currently evaluating: 3MXW_l_u
+Currently evaluating: 3MXW_r_u
+Currently evaluating: 3RVW_l_u
+Currently evaluating: 3RVW_r_u
+Currently evaluating: 4DN4_l_u
+Currently evaluating: 4DN4_r_u
+Currently evaluating: 4FQI_l_u
+Currently evaluating: 4FQI_r_u
+Currently evaluating: 4G6J_l_u
+Currently evaluating: 4G6J_r_u
+Currently evaluating: 4G6M_l_u
+Currently evaluating: 4G6M_r_u
+Currently evaluating: 4GXU_l_u
+Currently evaluating: 4GXU_r_u
+Currently evaluating: 3EO1_l_u
+Currently evaluating: 3EO1_r_u
+Currently evaluating: 3G6D_l_u
+Currently evaluating: 3G6D_r_u
+Currently evaluating: 3HI6_l_u
+Currently evaluating: 3HI6_r_u
+Currently evaluating: 3L5W_l_u
+Currently evaluating: 3L5W_r_u
+Currently evaluating: 3V6Z_l_u
+Currently evaluating: 3V6Z_r_u
+Currently evaluating: 1BGX_l_u
+Currently evaluating: 1BGX_r_u
+Mean Precision:  0.35493669161726565
+Mean Recall:  0.47644030207470056
+Mean AUC-ROC Score:  0.7092447457807278
+Mean AUC-PR Score:  0.202691362804803
+Mean MCC:  0.35860082054080017
+Mean Specificity:  0.9420491894867552
+Mean NPV:  0.968144468484195
+
+
+
+Executed in  52 hours, 5 minutes, 34 seconds

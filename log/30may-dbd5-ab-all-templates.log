@@ -1,0 +1,34 @@
+DBD5: Antigen-Bound Antibody (AB)
+Currently evaluating: 1BJ1_l_u
+Currently evaluating: 1BJ1_r_u
+Currently evaluating: 1FSK_l_u
+Currently evaluating: 1FSK_r_u
+Currently evaluating: 1I9R_l_u
+Currently evaluating: 1I9R_r_u
+Currently evaluating: 1IQD_l_u
+Currently evaluating: 1IQD_r_u
+Currently evaluating: 1K4C_l_u
+Currently evaluating: 1K4C_r_u
+Currently evaluating: 1KXQ_l_u
+Currently evaluating: 1KXQ_r_u
+Currently evaluating: 1NCA_l_u
+Currently evaluating: 1NCA_r_u
+Currently evaluating: 1NSN_l_u
+Currently evaluating: 1NSN_r_u
+Currently evaluating: 1QFW_l_u
+Currently evaluating: 1QFW_r_u
+Currently evaluating: 2JEL_l_u
+Currently evaluating: 2JEL_r_u
+Currently evaluating: 2HMI_l_u
+Currently evaluating: 2HMI_r_u
+Mean Precision:  0.41096057716871126
+Mean Recall:  0.40091739615733424
+Mean AUC-ROC Score:  0.6812962317246136
+Mean AUC-PR Score:  0.19847360533141797
+Mean MCC:  0.3626218127087185
+Mean Specificity:  0.961675067291893
+Mean NPV:  0.9630105326174735
+
+
+
+Executed in  19 hours, 46 minutes, 7 seconds
