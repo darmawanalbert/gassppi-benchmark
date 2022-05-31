@@ -1,0 +1,58 @@
+DBD5: Others, G-protein containing (OG)
+Currently evaluating: 1A2K_l_u
+Currently evaluating: 1A2K_r_u
+Currently evaluating: 1AZS_l_u
+Currently evaluating: 1AZS_r_u
+Currently evaluating: 1E96_l_u
+Currently evaluating: 1E96_r_u
+Currently evaluating: 1FQJ_l_u
+Currently evaluating: 1FQJ_r_u
+Currently evaluating: 1HE1_l_u
+Currently evaluating: 1HE1_r_u
+Currently evaluating: 1I4D_l_u
+Currently evaluating: 1I4D_r_u
+Currently evaluating: 1J2J_l_u
+Currently evaluating: 1J2J_r_u
+Currently evaluating: 1Z0K_l_u
+Currently evaluating: 1Z0K_r_u
+Currently evaluating: 2FJU_l_u
+Currently evaluating: 2FJU_r_u
+Currently evaluating: 2G77_l_u
+Currently evaluating: 2G77_r_u
+Currently evaluating: 2GTP_l_u
+Currently evaluating: 2GTP_r_u
+Currently evaluating: 1GP2_l_u
+Currently evaluating: 1GP2_r_u
+Currently evaluating: 1GRN_l_u
+Currently evaluating: 1GRN_r_u
+Currently evaluating: 1HE8_l_u
+Currently evaluating: 1HE8_r_u
+Currently evaluating: 1I2M_l_u
+Currently evaluating: 1I2M_r_u
+Currently evaluating: 1K5D_l_u
+Currently evaluating: 1K5D_r_u
+Currently evaluating: 1LFD_l_u
+Currently evaluating: 1LFD_r_u
+Currently evaluating: 1WQ1_l_u
+Currently evaluating: 1WQ1_r_u
+Currently evaluating: 2H7V_l_u
+Currently evaluating: 2H7V_r_u
+Currently evaluating: 3CPH_l_u
+Currently evaluating: 3CPH_r_u
+Currently evaluating: 1BKD_l_u
+Currently evaluating: 1BKD_r_u
+Currently evaluating: 1IBR_l_u
+Currently evaluating: 1IBR_r_u
+Currently evaluating: 1R8S_l_u
+Currently evaluating: 1R8S_r_u
+Mean Precision:  0.3249791145975851
+Mean Recall:  0.505138959396296
+Mean AUC-ROC Score:  0.709269567838094
+Mean AUC-PR Score:  0.19590209602692402
+Mean MCC:  0.3318101793126622
+Mean Specificity:  0.9134001762798922
+Mean NPV:  0.957045064372507
+
+
+
+Executed in  35 hours, 45 minutes, 12 seconds
